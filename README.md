@@ -29,7 +29,7 @@ This will search for podcasts where the artist name is Steve.
 
 Search by ID:
 
-    Endpoint defined in main.py:
+Endpoint defined in main.py:
 
 ```
 api.add_resource(PostResource, '/podcast/<int:post_id>')
@@ -64,9 +64,9 @@ Using curl:
 
 ✏️ Update a Podcast
 
-    Method: PATCH
+Method: PATCH
 
-    URL:
+URL:
 
 ```
 http://localhost:5000/podcast/1
@@ -83,9 +83,9 @@ Using curl:
 
 ❌ Delete a Podcast
 
-    Method: DELETE
+Method: DELETE
 
-    Example URL:
+Example URL:
 
 ```
 http://localhost:5000/podcast/1
@@ -104,9 +104,9 @@ Python version: 3.7+
 
 Steps
 
-    Download the podcasts folder.
+-Download the podcasts folder.
 
-    Install dependencies using pip:
+-Install dependencies using pip:
 
 ```
 pip install Flask Flask-SQLAlchemy Flask-RESTful flask-marshmallow
@@ -122,13 +122,13 @@ exit()
 
 Run the project:
 
-    Open in browser or Postman:
+Open in browser or Postman:
 
-  ```
-    http://localhost:5000/podcast
-  ```
+```
+http://localhost:5000/podcast
+```
 
-   Or use curl from your terminal (see examples above).
+Or use curl from your terminal (see examples above).
 
 📬 Contact
 
