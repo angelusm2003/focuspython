@@ -14,8 +14,10 @@ The solution is located in the `podcasts` folder. You can clone or download it f
 Search by **artist name**:
 
 - Endpoint defined in `main.py`:
-```python
+  
+```
 api.add_resource(PostName, '/podcast/<string:post_artistName>')
+```
   
 Example (GET request):
 
@@ -29,8 +31,9 @@ Search by ID:
 
     Endpoint defined in main.py:
 
-```python
+```
 api.add_resource(PostResource, '/podcast/<int:post_id>')
+```
 
 Example (GET request):
 
